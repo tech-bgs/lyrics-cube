@@ -15,12 +15,14 @@
 
 ## 필요한 것
 
-| 부품 | 설명 |
-|---|---|
-| ESP32 + 0.96인치 OLED 일체형 보드 | 예: ideaspark ESP32 0.96" OLED (SSD1306, 128×64). 화면 위 16줄이 노란색인 모델 기준으로 디자인했어요 |
-| 투명 프리즘 큐브 | 화면 위에 올리는 빔스플리터 큐브 |
-| USB 케이블 | 보드가 마이크로 5핀이에요 |
-| 맥 (Apple Silicon) | 가사 시간 계산과 노래 재생용. 다른 컴퓨터에서는 시험하지 않았어요 |
+| 부품 | 설명 | 구매 링크 |
+|---|---|---|
+| ESP32 + 0.96인치 OLED 일체형 보드 | ideaspark ESP32 0.96" OLED (SSD1306, 128×64). 화면 위 16줄이 노란색인 모델 기준으로 디자인했어요 | [알리익스프레스](https://s.click.aliexpress.com/e/_c3EHWbH1) |
+| 광학 빔스플리터 큐브 | 화면 위에 올리는 투명 프리즘 큐브 | [알리익스프레스](https://s.click.aliexpress.com/e/_c3tRfNZZ) |
+| USB 케이블 | 보드가 마이크로 5핀이에요 | |
+| 맥 (Apple Silicon) | 가사 시간 계산과 노래 재생용. 다른 컴퓨터에서는 시험하지 않았어요 | |
+
+> 위 구매 링크는 제휴 링크예요. 이 링크로 구매하면 방구석 테크랩이 소정의 수수료를 받을 수 있어요. 구매 가격은 똑같아요.
 
 ## 굽는 방법 (맥 기준)
 
@@ -109,4 +111,4 @@ MIT. 함께 쓰는 라이브러리·글꼴은 [THIRD_PARTY.md](THIRD_PARTY.md)�
 
 ## English summary
 
-A tiny ESP32 + 0.96" OLED lyric display. Lyrics appear word by word in sync with a song; put a beam-splitter prism cube on top to make them float. Word timings are generated automatically from the song with Whisper, refined with Demucs vocal separation. A Mac script plays the song and sends a start signal over USB serial or Wi-Fi (`lyrics-cube.local`). The BOOT button toggles mirrored (cube) / normal view. The same drawing code (`scene.h`) runs on the board and in a Mac preview tool. Songs, lyrics and font-derived glyph data are not included; a demo lyric file is. MIT licensed.
+A tiny ESP32 + 0.96" OLED lyric display. Lyrics appear word by word in sync with a song; put a beam-splitter prism cube on top to make them float. Word timings are generated automatically from the song with Whisper, refined with Demucs vocal separation. A Mac script plays the song and sends a start signal over USB serial or Wi-Fi (`lyrics-cube.local`). The BOOT button toggles mirrored (cube) / normal view. The same drawing code (`scene.h`) runs on the board and in a Mac preview tool. Songs, lyrics and font-derived glyph data are not included; a demo lyric file is. MIT licensed. Parts links in the table above are affiliate links (the price is the same for you).

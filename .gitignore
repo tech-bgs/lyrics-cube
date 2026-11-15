@@ -1,0 +1,26 @@
+# 키·비밀번호 (절대 올리지 않음)
+secrets.h
+.env
+
+# 저작권 있는 노래·가사 (각자 준비)
+song/
+원본가사.txt
+lyrics.txt
+mockups/preview_song.mp4
+
+# 자동 생성 파일 (tools/make_data.py 로 만듦)
+font_data.h
+lyrics_data.h
+
+# 개인 백업·설치 파일
+backup/
+tools/.venv/
+
+# 빌드 결과물
+build/
+*.bin
+*.elf
+*.map
+
+# macOS
+.DS_Store

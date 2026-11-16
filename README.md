@@ -17,8 +17,8 @@
 
 | 부품 | 설명 | 구매 링크 |
 |---|---|---|
-| ESP32 + 0.96인치 OLED 일체형 보드 | ideaspark ESP32 0.96" OLED (SSD1306, 128×64). 화면 위 16줄이 노란색인 모델 기준으로 디자인했어요 | [알리익스프레스](https://s.click.aliexpress.com/e/_c3EHWbH1) |
-| 광학 빔스플리터 큐브 | 화면 위에 올리는 투명 프리즘 큐브 | [알리익스프레스](https://s.click.aliexpress.com/e/_c3tRfNZZ) |
+| ESP32 + 0.96인치 OLED 일체형 보드 | ideaspark ESP32 0.96" OLED (SSD1306, 128×64). 화면 위 16줄이 노란색인 모델 기준으로 디자인했어요 | [알리익스프레스](https://s.click.aliexpress.com/e/_c4lXPZ4V) |
+| 광학 빔스플리터 큐브 | 화면 위에 올리는 투명 프리즘 큐브 | [알리익스프레스](https://s.click.aliexpress.com/e/_c3lFu9FF) |
 | USB 케이블 | 보드가 마이크로 5핀이에요 | |
 | 맥 (Apple Silicon) | 가사 시간 계산과 노래 재생용. 다른 컴퓨터에서는 시험하지 않았어요 | |
 
